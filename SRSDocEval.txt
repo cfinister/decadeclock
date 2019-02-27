@@ -1,0 +1,43 @@
+
+
+This is a good start, and I can see that there are a lot of things you have
+thought through.
+
+You can ALWAYS specify more.  Try to think in terms of "if someone else
+were to code this project, what would they need to know about the way it
+operates?  What information could I provide them so they can be successful
+in the implementation?
+
+You have the language right, but there just isn't enough detail here to
+actually start designing and coding the project, from an engineering
+perspective.  For example, there are LOTS of things that can be stated
+about what will show up on the page you mention in 3.2.1.9, and you should
+list the various options that are referenced in 3.2.1.7 using a "will"
+statement under the requirement.
+
+Also, double-check your numbering to make sure it's sequential.
+
+Finally, specify not just that an item will be used, but specify what it
+will be used *FOR*.  For example, you say:
+
+3.2.1.2 The client shall use HTML.
+
+What will HTML be used *FOR*?  will that be on a browser or on the phone?
+What adaptations will be made for different size phones?  Will the app
+rotate when the phone does and change from portrait to landscape?
+
+...and so on.
+
+Otherwise, nice work!
+
+So far for the semester:
+Proposal:      5.0  out of  5.0  points
+Requirements: 14.0  out of 15.0  points
+Homework 1:    3.34 out of  3.34 points
+Homework 2:    3.34 out of  3.34 points
+Particip.:     1.5  out of  1.5  points
+              27.18 out of 28.18 points = 96.45% which is an A
+
+Keep it up!
+		      
+
