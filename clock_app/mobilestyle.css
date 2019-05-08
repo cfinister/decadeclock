@@ -1,0 +1,243 @@
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.btn1 {
+  background-color: #C9E264;
+  border: none;
+  border-radius: 12px;
+  color: #7B7AD0;
+  font-size: 30px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 32%;
+}
+
+.btn1:hover {
+  color: #7B7AD0;
+}
+
+.btn2 {
+  background-image: url("images/clock.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 60px 60px;
+  display: inline-block;
+  position: absolute;
+  top: 75%;
+  left: 35%;
+}
+
+.bckbtn {
+  display: inline-block;
+  position: absolute;
+  top: -3%;
+  left: 1%;
+}
+
+.btn1970 {
+  background-color: #959CE7;
+  border: none;
+  border-radius: 12px;
+  color: #C45776;
+  font-size: 30px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+}
+
+.btn1970:hover {
+  color: #C45776;
+}
+
+.btn1980 {
+  background-color: #959CE7;
+  border: none;
+  border-radius: 12px;
+  color: #C45776;
+  font-size: 30px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+}
+
+.btn1980:hover {
+  color: #C45776;
+}
+
+.btn1990 {
+  background-color: #959CE7;
+  border: none;
+  border-radius: 12px;
+  color: #C45776;
+  font-size: 30px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}
+
+.btn1990:hover {
+  color: #C45776;
+}
+
+.btn2000 {
+  background-color: #959CE7;
+  border: none;
+  border-radius: 12px;
+  color: #C45776;
+  font-size: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 32%;
+}
+
+.btn2000:hover {
+  color: #C45776;
+}
+
+.btn70s, .btn74s, .btn77s, button {
+  background-color: #EF7625;
+  border: none;
+  border-radius: 12px;
+  color: #000000;
+  font-size: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+}
+
+.btn74s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+}
+
+.btn77s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}
+
+.btn80s, .btn84s, .btn87s {
+  background-color: #CA7CD8;
+  border: none;
+  border-radius: 12px;
+  color: #000000;
+  font-size: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+}
+
+.btn84s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+}
+
+.btn87s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}
+
+.btn90s, .btn94s, .btn97s {
+  background-color: #B13A1A;
+  border: none;
+  border-radius: 12px;
+  color: #000000;
+  font-size: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+}
+
+.btn94s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+}
+
+.btn97s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}
+
+.btn00s, .btn04s, .btn07s {
+  background-color: #B20F39;
+  border: none;
+  border-radius: 12px;
+  color: #000000;
+  font-size: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+}
+
+.btn04s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+}
+
+.btn07s {
+  padding: 12px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}

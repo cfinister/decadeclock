@@ -1,0 +1,108 @@
+<!-- this will be the base of the application or the client -->
+<!-- mixed in this will be bootstrap, html, JS, CSS, JQuery, AJAX,
+layerJS, and JSON -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.layerjs.org/libs/layerjs/layerjs-0.5.2.min.js" defer=""></script>
+    <link href="https://cdn.layerjs.org/libs/layerjs/layerjs-0.5.2.css" type="text/css" rel="stylesheet">
+    <link href="mobilestyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title>Decadal Clock</title>
+  </head>
+  <body lj-type="stage">
+    <!-- Layer with main pages-->
+    <div lj-type="layer" id="content-layer" lj-fit-to="responsive-width" lj-transition="up">
+      <div lj-type="frame" id="home" lj-fit-to="responsive">
+        <img src="images/home1.svg">
+        <br>
+        <a href="#about" class="btn btn1"><strong>About</strong></a>
+      </div>
+      <div lj-type="frame" id="about">
+        <img src="images/about.svg">
+        <br>
+        <a href="#icons&p=left" class="btn btn2"></a>
+        <a class="btn bckbtn" href="#home&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="icons">
+        <img src="images/icons.svg">
+        <a href="#1970" class="btn btn1970"><strong>1970s</strong></a>
+        <a href="#1980" class="btn btn1980"><strong>1980s</strong></a>
+        <a href="#1990" class="btn btn1990"><strong>1990s</strong></a>
+        <a href="#2000" class="btn btn2000"><strong>2000s</strong></a>
+        <a class="btn bckbtn" href="#home&p=left">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="1970">
+        <img src="images/1970.svg">
+        <!--<a href="#" onclick="btn btn70s"><b><i>1971-1973</i></b></a>
+        <button onclick="loadDoc()"><b><i>1971-1973</i></b></button>
+        <p id="1970test"></p>-->
+        <a href="#1971" class="btn btn70s"><b><i>1974-1976</i></b></a>
+        <a href="#1974" class="btn btn74s"><b><i>1974-1976</i></b></a>
+        <a href="#1977" class="btn btn77s"><b><i>1977-1979</i></b></a>
+        <a class="btn bckbtn" href="#icons&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="1971">
+        <img src="images/1971select.svg">
+        <br>
+        <a class="btn bckbtn" href="#1970&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="1974">
+        <img src="images/1974select.svg">
+        <br>
+        <a class="btn bckbtn" href="#1970&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="1977">
+        <img src="images/1977select.svg">
+        <br>
+        <a class="btn bckbtn" href="#1970&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="1980">
+        <img src="images/1980.svg">
+        <a href="#" class="btn btn80s"><b><i>1981-1983</i></b></a>
+        <a href="#" class="btn btn84s"><b><i>1984-1986</i></b></a>
+        <a href="#" class="btn btn87s"><b><i>1987-1989</i></b></a>
+        <a class="btn bckbtn" href="#icons&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="1990">
+        <img src="images/1990.svg">
+        <a href="#" class="btn btn90s"><b><i>1991-1993</i></b></a>
+        <a href="#" class="btn btn94s"><b><i>1994-1996</i></b></a>
+        <a href="#" class="btn btn97s"><b><i>1997-1999</i></b></a>
+        <a class="btn bckbtn" href="#icons&p=right">&#8592;</a>
+      </div>
+      <div lj-type="frame" id="2000">
+        <img src="images/2000.svg">
+        <a href="#" class="btn btn00s"><b><i>2001-2003</i></b></a>
+        <a href="#" class="btn btn04s"><b><i>2004-2006</i></b></a>
+        <a href="#" class="btn btn07s"><b><i>2007-2009</i></b></a>
+        <a class="btn bckbtn" href="#icons&p=right">&#8592;</a>
+      </div>
+    </div>
+
+    <script>
+      function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("1970test").innerHTML =
+            window.location.assign("https://www.w3schools.com");
+          }
+        };
+      }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script>window.ServerController.init();</script> -->
+    <script> layerJS.init(); </script>
+  </body>
+</html>
