@@ -6,4 +6,9 @@ The application being created by Cherrell Finister is Decadal Clock, a interacti
 
 My multimedia show will take place April 9th 2019 to April 12th 2019 in the Lanband art gallery. The project poster will be up shortly after in the kecklab. 
 
+Currently, only the 1970's work for this project. 
+You can visit my site for an example of my project. 
+http://digitalarts.lmu.edu/cfiniste/clock_app/
+http://digitalarts.lmu.edu/cfiniste/clock_interface/
+
 Thank you!
