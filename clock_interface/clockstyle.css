@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.btn1 {
+  background-image: url("images/clock.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 150px 150px;
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  left: 41%;
+}
+
+.bckbtn {
+  display: inline-block;
+  position: absolute;
+  top: -3%;
+  left: 1%;
+}
+
+.cont {
+  display: inline-block;
+  position: absolute;
+  top: -3%;
+  right: 1%;
+}
